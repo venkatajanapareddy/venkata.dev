@@ -6,15 +6,19 @@
     "start": "next start"
   },
   "dependencies": {
-    "@ant-design/icons": "^4.7.0",
-    "antd": "^4.19.3",
+    "@ant-design/icons": "^5.0.1",
+    "@types/d3": "^7.4.0",
+    "antd": "^5.0.7",
     "chart.js": "^3.7.1",
+    "d3": "^7.7.0",
     "date-fns": "^2.28.0",
+    "dayjs": "^1.11.7",
     "gray-matter": "^4.0.3",
     "next": "latest",
     "react": "17.0.2",
     "react-chartjs-2": "^4.1.0",
     "react-dom": "17.0.2",
+    "recharts": "^2.1.12",
     "remark": "^14.0.2",
     "remark-html": "^15.0.1",
     "uuid": "^8.3.2"
