@@ -25,7 +25,7 @@ import {
   ArrowLeftOutlined,
   DeleteOutlined,
 } from '@ant-design/icons';
-import moment from 'moment';
+import dayjs from 'dayjs';
 import usePortfolio from '../../../hooks/usePortfolio';
 import {
   calculatePortfolioStats,
@@ -41,7 +41,6 @@ import PortfolioCompositionChart from './components/Charts/PortfolioCompositionC
 import GainsLossesBarChart from './components/Charts/GainsLossesBarChart';
 import SectorDiversificationChart from './components/Charts/SectorDiversificationChart';
 import PerformanceLineChart from './components/Charts/PerformanceLineChart';
-import 'antd/dist/antd.css';
 
 const { Content } = Layout;
 const { Title, Text } = Typography;

@@ -29,7 +29,7 @@ import {
   DeleteOutlined,
   ArrowLeftOutlined,
 } from '@ant-design/icons';
-import moment from 'moment';
+import dayjs from 'dayjs';
 import useTransactions from '../../../hooks/useTransactions';
 import { calculateTotals, getExpensesByCategory, getMonthlyData, formatCurrency, formatPercentage } from '../../../utils/calculations';
 import { Transaction, IncomeCategory, ExpenseCategory } from '../../../types/finance';
@@ -37,7 +37,6 @@ import IncomeExpenseLineChart from './components/Charts/IncomeExpenseLineChart';
 import ExpensePieChart from './components/Charts/ExpensePieChart';
 import MonthlyBarChart from './components/Charts/MonthlyBarChart';
 import SavingsDoughnutChart from './components/Charts/SavingsDoughnutChart';
-import 'antd/dist/antd.css';
 
 const { Content } = Layout;
 const { Title, Text } = Typography;
@@ -242,7 +241,7 @@ export default function PersonalFinanceTracker() {
                     form={incomeForm}
                     layout="inline"
                     onFinish={handleIncomeSubmit}
-                    initialValues={{ date: moment(), category: 'salary' }}
+                    initialValues={{ date: dayjs(), category: 'salary' }}
                     style={{ width: '100%' }}
                   >
                     <Form.Item name="category" rules={[{ required: true }]} style={{ width: '23%' }}>
@@ -284,7 +283,7 @@ export default function PersonalFinanceTracker() {
                     form={expenseForm}
                     layout="inline"
                     onFinish={handleExpenseSubmit}
-                    initialValues={{ date: moment(), category: 'food-dining' }}
+                    initialValues={{ date: dayjs(), category: 'food-dining' }}
                     style={{ width: '100%' }}
                   >
                     <Form.Item name="category" rules={[{ required: true }]} style={{ width: '23%' }}>
