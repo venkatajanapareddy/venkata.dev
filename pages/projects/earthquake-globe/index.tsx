@@ -21,6 +21,7 @@ import {
   ThunderboltOutlined,
   GlobalOutlined,
   AlertOutlined,
+  GithubOutlined,
 } from '@ant-design/icons';
 import {
   fetchEarthquakes,
@@ -112,6 +113,15 @@ export default function EarthquakeGlobeTracker() {
                   Back to Projects
                 </Button>
               </Link>
+              <a
+                href="https://github.com/venkatajanapareddy/venkata.dev/tree/main/pages/projects/earthquake-globe"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button icon={<GithubOutlined />} style={{ background: '#1a1f35', color: '#fff', border: 'none' }}>
+                  View Source
+                </Button>
+              </a>
             </Space>
 
             <Card style={{ marginBottom: 24, background: '#1a1f35', border: 'none' }}>

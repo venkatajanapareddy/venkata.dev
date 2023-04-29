@@ -24,6 +24,7 @@ import {
   UndoOutlined,
   PercentageOutlined,
   DollarOutlined,
+  GithubOutlined,
 } from '@ant-design/icons';
 import useCrypto from '../../../hooks/useCrypto';
 import {
@@ -119,6 +120,13 @@ export default function CryptoPriceTracker() {
               <Link href="/projects">
                 <Button icon={<ArrowLeftOutlined />}>Back to Projects</Button>
               </Link>
+              <a
+                href="https://github.com/venkatajanapareddy/venkata.dev/tree/main/pages/projects/crypto-price-tracker"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button icon={<GithubOutlined />}>View Source</Button>
+              </a>
             </Space>
 
             <Card style={{ marginBottom: 24 }}>
