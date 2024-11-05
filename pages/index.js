@@ -91,48 +91,44 @@ export default function Home({ allPostsData }) {
             GitHub
           </a>
 
-          <Link href="/projects">
-            <a style={{
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              gap: '0.75rem',
-              padding: '1rem 1.5rem',
-              background: '#2563eb',
-              color: 'white',
-              borderRadius: '8px',
-              textDecoration: 'none',
-              fontWeight: '500',
-              fontSize: '1rem',
-              transition: 'background 0.2s'
-            }}>
-              <svg style={{ width: '24px', height: '24px' }} fill="currentColor" viewBox="0 0 24 24">
-                <path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/>
-              </svg>
-              Projects
-            </a>
+          <Link href="/projects" style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '0.75rem',
+            padding: '1rem 1.5rem',
+            background: '#2563eb',
+            color: 'white',
+            borderRadius: '8px',
+            textDecoration: 'none',
+            fontWeight: '500',
+            fontSize: '1rem',
+            transition: 'background 0.2s'
+          }}>
+            <svg style={{ width: '24px', height: '24px' }} fill="currentColor" viewBox="0 0 24 24">
+              <path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/>
+            </svg>
+            Projects
           </Link>
 
-          <Link href="/blog">
-            <a style={{
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              gap: '0.75rem',
-              padding: '1rem 1.5rem',
-              background: '#2563eb',
-              color: 'white',
-              borderRadius: '8px',
-              textDecoration: 'none',
-              fontWeight: '500',
-              fontSize: '1rem',
-              transition: 'background 0.2s'
-            }}>
-              <svg style={{ width: '24px', height: '24px' }} fill="currentColor" viewBox="0 0 24 24">
-                <path d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-4 6H9V7h6v2zm-6 2h6v2H9v-2zm6 2v2H9v-2h6z"/>
-              </svg>
-              Blog
-            </a>
+          <Link href="/blog" style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '0.75rem',
+            padding: '1rem 1.5rem',
+            background: '#2563eb',
+            color: 'white',
+            borderRadius: '8px',
+            textDecoration: 'none',
+            fontWeight: '500',
+            fontSize: '1rem',
+            transition: 'background 0.2s'
+          }}>
+            <svg style={{ width: '24px', height: '24px' }} fill="currentColor" viewBox="0 0 24 24">
+              <path d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-4 6H9V7h6v2zm-6 2h6v2H9v-2zm6 2v2H9v-2h6z"/>
+            </svg>
+            Blog
           </Link>
         </div>
       </div>

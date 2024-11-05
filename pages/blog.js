@@ -12,9 +12,7 @@ export default function Blog({ allPostsData }) {
         <title>Blog | {siteTitle}</title>
       </Head>
       <div style={{ marginBottom: '2rem' }}>
-        <Link href="/">
-          <a>← Back to home</a>
-        </Link>
+        <Link href="/">← Back to home</Link>
       </div>
       <section className={utilStyles.headingMd}>
         <h1 className={utilStyles.headingXl}>Blog</h1>
@@ -26,9 +24,7 @@ export default function Blog({ allPostsData }) {
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
+              <Link href={`/posts/${id}`}>{title}</Link>
               <br />
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />

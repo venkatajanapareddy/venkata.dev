@@ -12,9 +12,7 @@ export default function Projects({ allProjectsData }) {
         <title>Projects | {siteTitle}</title>
       </Head>
       <div style={{ marginBottom: '2rem' }}>
-        <Link href="/">
-          <a>← Back to home</a>
-        </Link>
+        <Link href="/">← Back to home</Link>
       </div>
       <section className={utilStyles.headingMd}>
         <h1 className={utilStyles.headingXl}>Projects</h1>
@@ -26,9 +24,7 @@ export default function Projects({ allProjectsData }) {
         <ul className={utilStyles.list}>
           {allProjectsData.map(({ id, date, title, description, tech }) => (
             <li className={utilStyles.listItem} key={id}>
-              <Link href={`/projects/${id}`}>
-                <a>{title}</a>
-              </Link>
+              <Link href={`/projects/${id}`}>{title}</Link>
               <br />
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
