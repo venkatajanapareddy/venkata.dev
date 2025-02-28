@@ -1,0 +1,512 @@
+[
+  {
+    "code": "AK",
+    "votes_dem": 139690,
+    "votes_rep": 184407,
+    "votes_total": 324097,
+    "pct_dem": 43.1,
+    "pct_rep": 56.9,
+    "margin": -13.8,
+    "winner": "R"
+  },
+  {
+    "code": "AL",
+    "votes_dem": 772412,
+    "votes_rep": 1462616,
+    "votes_total": 2256352,
+    "pct_dem": 34.23,
+    "pct_rep": 64.82,
+    "margin": -30.59,
+    "winner": "R"
+  },
+  {
+    "code": "AR",
+    "votes_dem": 396905,
+    "votes_rep": 759241,
+    "votes_total": 1182676,
+    "pct_dem": 33.56,
+    "pct_rep": 64.2,
+    "margin": -30.64,
+    "winner": "R"
+  },
+  {
+    "code": "AZ",
+    "votes_dem": 1582860,
+    "votes_rep": 1770242,
+    "votes_total": 3389319,
+    "pct_dem": 46.7,
+    "pct_rep": 52.23,
+    "margin": -5.53,
+    "winner": "R"
+  },
+  {
+    "code": "CA",
+    "votes_dem": 9276179,
+    "votes_rep": 6081697,
+    "votes_total": 15862536,
+    "pct_dem": 58.48,
+    "pct_rep": 38.34,
+    "margin": 20.14,
+    "winner": "D"
+  },
+  {
+    "code": "CO",
+    "votes_dem": 1728159,
+    "votes_rep": 1377441,
+    "votes_total": 3190873,
+    "pct_dem": 54.16,
+    "pct_rep": 43.17,
+    "margin": 10.99,
+    "winner": "D"
+  },
+  {
+    "code": "CT",
+    "votes_dem": 992053,
+    "votes_rep": 736918,
+    "votes_total": 1758429,
+    "pct_dem": 56.42,
+    "pct_rep": 41.91,
+    "margin": 14.51,
+    "winner": "D"
+  },
+  {
+    "code": "DC",
+    "votes_dem": 294185,
+    "votes_rep": 21076,
+    "votes_total": 325869,
+    "pct_dem": 90.28,
+    "pct_rep": 6.47,
+    "margin": 83.81,
+    "winner": "D"
+  },
+  {
+    "code": "DE",
+    "votes_dem": 289758,
+    "votes_rep": 214351,
+    "votes_total": 511697,
+    "pct_dem": 56.63,
+    "pct_rep": 41.89,
+    "margin": 14.74,
+    "winner": "D"
+  },
+  {
+    "code": "FL",
+    "votes_dem": 4683038,
+    "votes_rep": 6110125,
+    "votes_total": 10893547,
+    "pct_dem": 42.99,
+    "pct_rep": 56.09,
+    "margin": -13.1,
+    "winner": "R"
+  },
+  {
+    "code": "GA",
+    "votes_dem": 2548017,
+    "votes_rep": 2663117,
+    "votes_total": 5250047,
+    "pct_dem": 48.53,
+    "pct_rep": 50.73,
+    "margin": -2.19,
+    "winner": "R"
+  },
+  {
+    "code": "HI",
+    "votes_dem": 313044,
+    "votes_rep": 193661,
+    "votes_total": 516701,
+    "pct_dem": 60.59,
+    "pct_rep": 37.48,
+    "margin": 23.1,
+    "winner": "D"
+  },
+  {
+    "code": "IA",
+    "votes_dem": 707278,
+    "votes_rep": 927019,
+    "votes_total": 1656849,
+    "pct_dem": 42.69,
+    "pct_rep": 55.95,
+    "margin": -13.26,
+    "winner": "R"
+  },
+  {
+    "code": "ID",
+    "votes_dem": 274972,
+    "votes_rep": 605246,
+    "votes_total": 904812,
+    "pct_dem": 30.39,
+    "pct_rep": 66.89,
+    "margin": -36.5,
+    "winner": "R"
+  },
+  {
+    "code": "IL",
+    "votes_dem": 3062863,
+    "votes_rep": 2449079,
+    "votes_total": 5592368,
+    "pct_dem": 54.77,
+    "pct_rep": 43.79,
+    "margin": 10.98,
+    "winner": "D"
+  },
+  {
+    "code": "IN",
+    "votes_dem": 1163603,
+    "votes_rep": 1720347,
+    "votes_total": 2933700,
+    "pct_dem": 39.66,
+    "pct_rep": 58.64,
+    "margin": -18.98,
+    "winner": "R"
+  },
+  {
+    "code": "KS",
+    "votes_dem": 544853,
+    "votes_rep": 758802,
+    "votes_total": 1327591,
+    "pct_dem": 41.04,
+    "pct_rep": 57.16,
+    "margin": -16.12,
+    "winner": "R"
+  },
+  {
+    "code": "KY",
+    "votes_dem": 704043,
+    "votes_rep": 1337494,
+    "votes_total": 2073309,
+    "pct_dem": 33.96,
+    "pct_rep": 64.51,
+    "margin": -30.55,
+    "winner": "R"
+  },
+  {
+    "code": "LA",
+    "votes_dem": 766870,
+    "votes_rep": 1208505,
+    "votes_total": 2006975,
+    "pct_dem": 38.21,
+    "pct_rep": 60.22,
+    "margin": -22.01,
+    "winner": "R"
+  },
+  {
+    "code": "MA",
+    "votes_dem": 2126545,
+    "votes_rep": 1251308,
+    "votes_total": 3453437,
+    "pct_dem": 61.58,
+    "pct_rep": 36.23,
+    "margin": 25.34,
+    "winner": "D"
+  },
+  {
+    "code": "MD",
+    "votes_dem": 1902577,
+    "votes_rep": 1035550,
+    "votes_total": 3015650,
+    "pct_dem": 63.09,
+    "pct_rep": 34.34,
+    "margin": 28.75,
+    "winner": "D"
+  },
+  {
+    "code": "ME",
+    "votes_dem": 435652,
+    "votes_rep": 377977,
+    "votes_total": 831375,
+    "pct_dem": 52.4,
+    "pct_rep": 45.46,
+    "margin": 6.94,
+    "winner": "D"
+  },
+  {
+    "code": "MI",
+    "votes_dem": 2736533,
+    "votes_rep": 2816636,
+    "votes_total": 5662504,
+    "pct_dem": 48.33,
+    "pct_rep": 49.74,
+    "margin": -1.41,
+    "winner": "R"
+  },
+  {
+    "code": "MN",
+    "votes_dem": 1656979,
+    "votes_rep": 1519032,
+    "votes_total": 3240916,
+    "pct_dem": 51.13,
+    "pct_rep": 46.87,
+    "margin": 4.26,
+    "winner": "D"
+  },
+  {
+    "code": "MO",
+    "votes_dem": 1200599,
+    "votes_rep": 1751986,
+    "votes_total": 2993596,
+    "pct_dem": 40.11,
+    "pct_rep": 58.52,
+    "margin": -18.42,
+    "winner": "R"
+  },
+  {
+    "code": "MS",
+    "votes_dem": 466668,
+    "votes_rep": 747744,
+    "votes_total": 1228008,
+    "pct_dem": 38,
+    "pct_rep": 60.89,
+    "margin": -22.89,
+    "winner": "R"
+  },
+  {
+    "code": "MT",
+    "votes_dem": 231906,
+    "votes_rep": 352079,
+    "votes_total": 602963,
+    "pct_dem": 38.46,
+    "pct_rep": 58.39,
+    "margin": -19.93,
+    "winner": "R"
+  },
+  {
+    "code": "NC",
+    "votes_dem": 2715375,
+    "votes_rep": 2898423,
+    "votes_total": 5679647,
+    "pct_dem": 47.81,
+    "pct_rep": 51.03,
+    "margin": -3.22,
+    "winner": "R"
+  },
+  {
+    "code": "ND",
+    "votes_dem": 112327,
+    "votes_rep": 246505,
+    "votes_total": 365059,
+    "pct_dem": 30.77,
+    "pct_rep": 67.52,
+    "margin": -36.76,
+    "winner": "R"
+  },
+  {
+    "code": "NE",
+    "votes_dem": 369995,
+    "votes_rep": 564816,
+    "votes_total": 947159,
+    "pct_dem": 39.06,
+    "pct_rep": 59.63,
+    "margin": -20.57,
+    "winner": "R"
+  },
+  {
+    "code": "NH",
+    "votes_dem": 418496,
+    "votes_rep": 395578,
+    "votes_total": 822153,
+    "pct_dem": 50.9,
+    "pct_rep": 48.11,
+    "margin": 2.79,
+    "winner": "D"
+  },
+  {
+    "code": "NJ",
+    "votes_dem": 2220713,
+    "votes_rep": 1968215,
+    "votes_total": 4272725,
+    "pct_dem": 51.97,
+    "pct_rep": 46.06,
+    "margin": 5.91,
+    "winner": "D"
+  },
+  {
+    "code": "NM",
+    "votes_dem": 478802,
+    "votes_rep": 423391,
+    "votes_total": 923403,
+    "pct_dem": 51.85,
+    "pct_rep": 45.85,
+    "margin": 6,
+    "winner": "D"
+  },
+  {
+    "code": "NV",
+    "votes_dem": 705197,
+    "votes_rep": 751205,
+    "votes_total": 1484840,
+    "pct_dem": 47.49,
+    "pct_rep": 50.59,
+    "margin": -3.1,
+    "winner": "R"
+  },
+  {
+    "code": "NY",
+    "votes_dem": 4619195,
+    "votes_rep": 3578899,
+    "votes_total": 8198094,
+    "pct_dem": 56.34,
+    "pct_rep": 43.66,
+    "margin": 12.69,
+    "winner": "D"
+  },
+  {
+    "code": "OH",
+    "votes_dem": 2533699,
+    "votes_rep": 3180116,
+    "votes_total": 5765017,
+    "pct_dem": 43.95,
+    "pct_rep": 55.16,
+    "margin": -11.21,
+    "winner": "R"
+  },
+  {
+    "code": "OK",
+    "votes_dem": 499599,
+    "votes_rep": 1036213,
+    "votes_total": 1566173,
+    "pct_dem": 31.9,
+    "pct_rep": 66.16,
+    "margin": -34.26,
+    "winner": "R"
+  },
+  {
+    "code": "OR",
+    "votes_dem": 1228410,
+    "votes_rep": 910702,
+    "votes_total": 2207592,
+    "pct_dem": 55.64,
+    "pct_rep": 41.25,
+    "margin": 14.39,
+    "winner": "D"
+  },
+  {
+    "code": "PA",
+    "votes_dem": 3423042,
+    "votes_rep": 3543308,
+    "votes_total": 7034206,
+    "pct_dem": 48.66,
+    "pct_rep": 50.37,
+    "margin": -1.71,
+    "winner": "R"
+  },
+  {
+    "code": "RI",
+    "votes_dem": 285156,
+    "votes_rep": 214406,
+    "votes_total": 510659,
+    "pct_dem": 55.84,
+    "pct_rep": 41.99,
+    "margin": 13.85,
+    "winner": "D"
+  },
+  {
+    "code": "SC",
+    "votes_dem": 1028452,
+    "votes_rep": 1483747,
+    "votes_total": 2548140,
+    "pct_dem": 40.36,
+    "pct_rep": 58.23,
+    "margin": -17.87,
+    "winner": "R"
+  },
+  {
+    "code": "SD",
+    "votes_dem": 146859,
+    "votes_rep": 272081,
+    "votes_total": 428922,
+    "pct_dem": 34.24,
+    "pct_rep": 63.43,
+    "margin": -29.19,
+    "winner": "R"
+  },
+  {
+    "code": "TN",
+    "votes_dem": 1056265,
+    "votes_rep": 1966865,
+    "votes_total": 3063942,
+    "pct_dem": 34.47,
+    "pct_rep": 64.19,
+    "margin": -29.72,
+    "winner": "R"
+  },
+  {
+    "code": "TX",
+    "votes_dem": 4835250,
+    "votes_rep": 6393597,
+    "votes_total": 11380105,
+    "pct_dem": 42.49,
+    "pct_rep": 56.18,
+    "margin": -13.69,
+    "winner": "R"
+  },
+  {
+    "code": "UT",
+    "votes_dem": 562566,
+    "votes_rep": 883818,
+    "votes_total": 1487951,
+    "pct_dem": 37.81,
+    "pct_rep": 59.4,
+    "margin": -21.59,
+    "winner": "R"
+  },
+  {
+    "code": "VA",
+    "votes_dem": 2335395,
+    "votes_rep": 2075085,
+    "votes_total": 4482576,
+    "pct_dem": 52.1,
+    "pct_rep": 46.29,
+    "margin": 5.81,
+    "winner": "D"
+  },
+  {
+    "code": "VT",
+    "votes_dem": 235791,
+    "votes_rep": 119395,
+    "votes_total": 366389,
+    "pct_dem": 64.36,
+    "pct_rep": 32.59,
+    "margin": 31.77,
+    "winner": "D"
+  },
+  {
+    "code": "WA",
+    "votes_dem": 2245849,
+    "votes_rep": 1530923,
+    "votes_total": 3898835,
+    "pct_dem": 57.6,
+    "pct_rep": 39.27,
+    "margin": 18.34,
+    "winner": "D"
+  },
+  {
+    "code": "WI",
+    "votes_dem": 1668229,
+    "votes_rep": 1697626,
+    "votes_total": 3415213,
+    "pct_dem": 48.85,
+    "pct_rep": 49.71,
+    "margin": -0.86,
+    "winner": "R"
+  },
+  {
+    "code": "WV",
+    "votes_dem": 214309,
+    "votes_rep": 533556,
+    "votes_total": 762390,
+    "pct_dem": 28.11,
+    "pct_rep": 69.98,
+    "margin": -41.87,
+    "winner": "R"
+  },
+  {
+    "code": "WY",
+    "votes_dem": 69527,
+    "votes_rep": 192633,
+    "votes_total": 266353,
+    "pct_dem": 26.1,
+    "pct_rep": 72.32,
+    "margin": -46.22,
+    "winner": "R"
+  }
+]
