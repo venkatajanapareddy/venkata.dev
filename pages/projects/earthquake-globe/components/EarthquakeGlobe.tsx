@@ -74,7 +74,7 @@ export default function EarthquakeGlobe({ earthquakes, width = 1320, height = 92
     controls.enableDamping = true;
     controls.dampingFactor = 0.05;
     controls.rotateSpeed = 0.5;
-    controls.enableZoom = true;
+    controls.enableZoom = false;
     controls.minDistance = 135;
     controls.maxDistance = 360;
     controls.autoRotate = true;
