@@ -75,38 +75,32 @@ export default function ElectionMap({ data, topology }: ElectionMapProps) {
             verticalAlign: 'bottom'
           }
         },
-        // Color states by margin using data classes (discrete color ranges)
+        // Color states by winner with margin intensity
         colorAxis: {
           dataClasses: [
             {
               from: -100,
-              to: -20,
-              color: '#b91c1c',  // Dark red
-              name: 'Strong Republican'
+              to: -10,
+              color: '#dc2626',  // Republican (strong)
+              name: 'Republican'
             },
             {
-              from: -20,
-              to: -5,
-              color: '#ef4444',  // Light red
-              name: 'Lean Republican'
+              from: -10,
+              to: 0,
+              color: '#ef4444',  // Republican (close)
+              name: 'Republican'
             },
             {
-              from: -5,
-              to: 5,
-              color: '#a78bfa',  // Purple
-              name: 'Toss-up'
+              from: 0,
+              to: 10,
+              color: '#3b82f6',  // Democrat (close)
+              name: 'Democrat'
             },
             {
-              from: 5,
-              to: 20,
-              color: '#3b82f6',  // Light blue
-              name: 'Lean Democrat'
-            },
-            {
-              from: 20,
+              from: 10,
               to: 100,
-              color: '#1e40af',  // Dark blue
-              name: 'Strong Democrat'
+              color: '#1e3a8a',  // Democrat (strong)
+              name: 'Democrat'
             }
           ]
         },
