@@ -5,6 +5,7 @@ import { ArrowLeftOutlined } from '@ant-design/icons'
 import dynamic from 'next/dynamic'
 import { useElectionData } from './hooks/useElectionData'
 import ElectionSummary from './components/ElectionSummary'
+import ElectoralVoteCounter from './components/ElectoralVoteCounter'
 
 const { Title, Paragraph } = Typography
 
@@ -68,6 +69,9 @@ export default function Election2024Dashboard() {
             Interactive state-level visualization of the 2024 US Presidential Election results.
             Data aggregated from county-level results.
           </Paragraph>
+
+          {/* Electoral Vote Counter - only show when data is loaded */}
+          {!loading && data.length > 0 && <ElectoralVoteCounter data={data} />}
 
           {/* Summary statistics - only show when data is loaded */}
           {!loading && data.length > 0 && <ElectionSummary data={data} />}
