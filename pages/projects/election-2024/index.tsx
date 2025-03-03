@@ -7,6 +7,7 @@ import { useElectionData } from './hooks/useElectionData'
 import ElectionSummary from './components/ElectionSummary'
 import ElectoralVoteCounter from './components/ElectoralVoteCounter'
 import StateResultsTable from './components/StateResultsTable'
+import StateMarginsChart from './components/StateMarginsChart'
 
 const { Title, Paragraph } = Typography
 
@@ -90,6 +91,9 @@ export default function Election2024Dashboard() {
           ) : (
             <ElectionMap data={data} topology={topology} />
           )}
+
+          {/* State Margins Chart - only show when data is loaded */}
+          {!loading && data.length > 0 && <StateMarginsChart data={data} />}
 
           {/* State Results Table - only show when data is loaded */}
           {!loading && data.length > 0 && <StateResultsTable data={data} />}
