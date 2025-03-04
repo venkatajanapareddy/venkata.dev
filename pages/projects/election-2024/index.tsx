@@ -8,6 +8,7 @@ import ElectionSummary from './components/ElectionSummary'
 import ElectoralVoteCounter from './components/ElectoralVoteCounter'
 import StateResultsTable from './components/StateResultsTable'
 import StateMarginsChart from './components/StateMarginsChart'
+import PopularVoteChart from './components/PopularVoteChart'
 
 const { Title, Paragraph } = Typography
 
@@ -94,6 +95,9 @@ export default function Election2024Dashboard() {
 
           {/* State Margins Chart - only show when data is loaded */}
           {!loading && data.length > 0 && <StateMarginsChart data={data} />}
+
+          {/* Popular Vote Chart - only show when data is loaded */}
+          {!loading && data.length > 0 && <PopularVoteChart data={data} />}
 
           {/* State Results Table - only show when data is loaded */}
           {!loading && data.length > 0 && <StateResultsTable data={data} />}
