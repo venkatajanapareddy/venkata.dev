@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import { Button, Card, Typography } from 'antd'
-import { ArrowLeftOutlined } from '@ant-design/icons'
+import { Button, Card, Typography, Space } from 'antd'
+import { ArrowLeftOutlined, GithubOutlined } from '@ant-design/icons'
 import dynamic from 'next/dynamic'
 import { useElectionData } from './hooks/useElectionData'
 import ElectionSummary from './components/ElectionSummary'
@@ -57,15 +57,26 @@ export default function Election2024Dashboard() {
           }}
           bodyStyle={{ padding: '2rem' }}
         >
-          <Link href="/projects">
-            <Button
-              type="link"
-              icon={<ArrowLeftOutlined />}
-              style={{ padding: 0, marginBottom: '1rem' }}
+          <Space style={{ marginBottom: '1rem' }}>
+            <Link href="/projects">
+              <Button
+                type="link"
+                icon={<ArrowLeftOutlined />}
+                style={{ padding: 0 }}
+              >
+                Back to Projects
+              </Button>
+            </Link>
+            <a
+              href="https://github.com/venkatajanapareddy/venkata.dev/tree/main/pages/projects/election-2024"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Back to Projects
-            </Button>
-          </Link>
+              <Button icon={<GithubOutlined />}>
+                View Source
+              </Button>
+            </a>
+          </Space>
 
           <Title level={1}>2024 US Presidential Election Results</Title>
           <Paragraph>
