@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@layer base {
+  /* Clean code block styling */
+  pre code .line,
+  pre code span {
+    background: transparent;
+  }
+}
