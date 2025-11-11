@@ -167,7 +167,7 @@ export default function PersonalFinanceTracker() {
                 <Button icon={<ArrowLeftOutlined />}>Back to Projects</Button>
               </Link>
               <a
-                href="https://github.com/venkatajanapareddy/venkata.dev/tree/main/pages/projects/personal-finance-tracker"
+                href="https://github.com/venkatajanapareddy/venkata.dev/tree/main/src/app/projects/personal-finance-tracker"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -111,7 +111,7 @@ export default function EarthquakeGlobeTracker() {
                 </Button>
               </Link>
               <a
-                href="https://github.com/venkatajanapareddy/venkata.dev/tree/main/pages/projects/earthquake-globe"
+                href="https://github.com/venkatajanapareddy/venkata.dev/tree/main/src/app/projects/earthquake-globe"
                 target="_blank"
                 rel="noopener noreferrer"
               >

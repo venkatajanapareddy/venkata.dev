@@ -116,7 +116,7 @@ export default function CryptoPriceTracker() {
               <Button icon={<ArrowLeftOutlined />}>Back to Projects</Button>
             </Link>
             <a
-              href="https://github.com/venkatajanapareddy/venkata.dev/tree/main/pages/projects/crypto-price-tracker"
+              href="https://github.com/venkatajanapareddy/venkata.dev/tree/main/src/app/projects/crypto-price-tracker"
               target="_blank"
               rel="noopener noreferrer"
             >

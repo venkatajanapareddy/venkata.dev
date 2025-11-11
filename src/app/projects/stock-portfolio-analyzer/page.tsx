@@ -161,7 +161,7 @@ export default function StockPortfolioAnalyzer() {
                 <Button icon={<ArrowLeftOutlined />}>Back to Projects</Button>
               </Link>
               <a
-                href="https://github.com/venkatajanapareddy/venkata.dev/tree/main/pages/projects/stock-portfolio-analyzer"
+                href="https://github.com/venkatajanapareddy/venkata.dev/tree/main/src/app/projects/stock-portfolio-analyzer"
                 target="_blank"
                 rel="noopener noreferrer"
               >

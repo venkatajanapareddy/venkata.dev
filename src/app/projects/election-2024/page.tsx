@@ -61,7 +61,7 @@ export default function Election2024Dashboard() {
               </Button>
             </Link>
             <a
-              href="https://github.com/venkatajanapareddy/venkata.dev/tree/main/pages/projects/election-2024"
+              href="https://github.com/venkatajanapareddy/venkata.dev/tree/main/src/app/projects/election-2024"
               target="_blank"
               rel="noopener noreferrer"
             >
