@@ -196,7 +196,7 @@ export default function PersonalFinanceTracker() {
                 {/* Stats Cards */}
                 <Row gutter={[12, 12]} style={{ marginBottom: 16 }}>
                   <Col span={12}>
-                    <Card size="small" bodyStyle={{ padding: 12 }}>
+                    <Card size="small" styles={{ body: { padding: 12 } }}>
                       <Statistic
                         title="Total Income"
                         value={currentMonth.income}
@@ -207,7 +207,7 @@ export default function PersonalFinanceTracker() {
                     </Card>
                   </Col>
                   <Col span={12}>
-                    <Card size="small" bodyStyle={{ padding: 12 }}>
+                    <Card size="small" styles={{ body: { padding: 12 } }}>
                       <Statistic
                         title="Total Expenses"
                         value={currentMonth.expenses}
@@ -218,7 +218,7 @@ export default function PersonalFinanceTracker() {
                     </Card>
                   </Col>
                   <Col span={12}>
-                    <Card size="small" bodyStyle={{ padding: 12 }}>
+                    <Card size="small" styles={{ body: { padding: 12 } }}>
                       <Statistic
                         title="Net Savings"
                         value={currentMonth.netSavings}
@@ -229,7 +229,7 @@ export default function PersonalFinanceTracker() {
                     </Card>
                   </Col>
                   <Col span={12}>
-                    <Card size="small" bodyStyle={{ padding: 12 }}>
+                    <Card size="small" styles={{ body: { padding: 12 } }}>
                       <Statistic
                         title="Savings Rate"
                         value={currentMonth.savingsRate * 100}
@@ -354,6 +354,7 @@ export default function PersonalFinanceTracker() {
                       rowKey="id"
                       pagination={{ pageSize: 8, size: 'small' }}
                       size="small"
+                      scroll={{ x: true }}
                     />
                   )}
                 </Card>

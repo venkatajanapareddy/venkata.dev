@@ -38,7 +38,7 @@ import dynamic from 'next/dynamic';
 
 const EarthquakeGlobe = dynamic(() => import('./components/EarthquakeGlobe'), {
   ssr: false,
-  loading: () => <div style={{ width: 1320, height: 924, display: 'flex', alignItems: 'center', justifyContent: 'center' }}><Spin size="large" /></div>,
+  loading: () => <div style={{ width: '100%', minHeight: 400, display: 'flex', alignItems: 'center', justifyContent: 'center' }}><Spin size="large" /></div>,
 });
 
 const { Content } = Layout;
@@ -52,6 +52,21 @@ export default function EarthquakeGlobeTracker() {
   const [period, setPeriod] = useState<EarthquakePeriod>('month');
   const [feedType, setFeedType] = useState<EarthquakeFeedType>('all');
   const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
+  const [dimensions, setDimensions] = useState({ width: 1320, height: 924 });
+
+  // Responsive globe sizing: scales down on mobile while maintaining 0.7 aspect ratio
+  // Max width is viewport - 48px padding, capped at 1320px on desktop
+  useEffect(() => {
+    const updateDimensions = () => {
+      const width = Math.min(window.innerWidth - 48, 1320);
+      const height = Math.min(width * 0.7, 924);
+      setDimensions({ width, height });
+    };
+
+    updateDimensions();
+    window.addEventListener('resize', updateDimensions);
+    return () => window.removeEventListener('resize', updateDimensions);
+  }, []);
 
   const loadEarthquakes = async () => {
     setLoading(true);
@@ -238,11 +253,11 @@ export default function EarthquakeGlobeTracker() {
                 </Space>
               }
             >
-              <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: 924 }}>
+              <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: dimensions.height }}>
                 {loading ? (
                   <Spin size="large" />
                 ) : (
-                  <EarthquakeGlobe earthquakes={earthquakes} width={1320} height={924} />
+                  <EarthquakeGlobe earthquakes={earthquakes} width={dimensions.width} height={dimensions.height} />
                 )}
               </div>
               {lastUpdated && (

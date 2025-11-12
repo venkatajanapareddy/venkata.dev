@@ -37,18 +37,18 @@ export default function Election2024Dashboard() {
       style={{
         minHeight: '100vh',
         background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-        padding: '2rem'
+        padding: '1rem'
       }}
     >
       <div style={{ maxWidth: '1400px', margin: '0 auto' }}>
         <Card
           style={{
-            borderRadius: '16px',
+            borderRadius: '8px',
             boxShadow: '0 20px 60px rgba(0,0,0,0.3)',
             background: 'rgba(255, 255, 255, 0.98)',
-            marginBottom: '2rem'
+            marginBottom: '1rem'
           }}
-          bodyStyle={{ padding: '2rem' }}
+          styles={{ body: { padding: '1rem' } }}
         >
           <Space style={{ marginBottom: '1rem' }}>
             <Link href="/projects">
@@ -85,11 +85,11 @@ export default function Election2024Dashboard() {
 
           {/* Interactive map with loading and error states */}
           {loading ? (
-            <div style={{ textAlign: 'center', padding: '3rem' }}>
+            <div style={{ textAlign: 'center', padding: '2rem' }}>
               <Title level={3}>Loading election data...</Title>
             </div>
           ) : error ? (
-            <div style={{ textAlign: 'center', padding: '3rem' }}>
+            <div style={{ textAlign: 'center', padding: '2rem' }}>
               <Title level={3}>Error loading data</Title>
               <Paragraph>{error.message}</Paragraph>
             </div>
@@ -109,18 +109,19 @@ export default function Election2024Dashboard() {
           {/* Data Attribution */}
           <div
             style={{
-              marginTop: '2rem',
-              padding: '1rem',
+              marginTop: '1.5rem',
+              padding: '0.75rem',
               background: '#f3f4f6',
-              borderRadius: '8px'
+              borderRadius: '6px'
             }}
           >
-            <Paragraph style={{ margin: 0, fontSize: '0.9rem', color: '#666' }}>
+            <Paragraph style={{ margin: 0, fontSize: '0.85rem', color: '#666', wordBreak: 'break-word' }}>
               <strong>Data Source:</strong> U.S. County Level Election Results (2008-2024),{' '}
               <a
                 href="https://github.com/tonmcg/US_County_Level_Election_Results_08-24"
                 target="_blank"
                 rel="noopener noreferrer"
+                style={{ wordBreak: 'break-all' }}
               >
                 github.com/tonmcg/US_County_Level_Election_Results_08-24
               </a>

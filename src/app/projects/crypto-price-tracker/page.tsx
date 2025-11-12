@@ -55,7 +55,6 @@ export default function CryptoPriceTracker() {
     {
       title: '#',
       key: 'rank',
-      width: 50,
       render: (_: any, __: any, index: number) => index + 1,
     },
     {

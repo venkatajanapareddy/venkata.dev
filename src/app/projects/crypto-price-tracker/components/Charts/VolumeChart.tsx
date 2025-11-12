@@ -9,12 +9,16 @@ interface VolumeChartProps {
 
 export default function VolumeChart({ cryptos, colors }: VolumeChartProps) {
   const svgRef = useRef<SVGSVGElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (!svgRef.current || cryptos.length === 0) return;
+    if (!svgRef.current || !containerRef.current || cryptos.length === 0) return;
 
-    const margin = { top: 20, right: 20, bottom: 60, left: 80 };
-    const width = 600 - margin.left - margin.right;
+    // Responsive chart sizing based on container width
+    const containerWidth = containerRef.current.clientWidth;
+    // Dynamic left margin: max 80px or 15% of width for Y-axis labels on mobile
+    const margin = { top: 20, right: 20, bottom: 60, left: Math.min(80, containerWidth * 0.15) };
+    const width = Math.max(300, containerWidth - margin.left - margin.right);
     const height = 300 - margin.top - margin.bottom;
 
     d3.select(svgRef.current).selectAll('*').remove();
@@ -89,5 +93,9 @@ export default function VolumeChart({ cryptos, colors }: VolumeChartProps) {
 
   }, [cryptos, colors]);
 
-  return <svg ref={svgRef}></svg>;
+  return (
+    <div ref={containerRef} style={{ width: '100%' }}>
+      <svg ref={svgRef}></svg>
+    </div>
+  );
 }

@@ -12,12 +12,16 @@ interface PriceLineChartProps {
 
 export default function PriceLineChart({ cryptos, selectedSymbols = ['BTC', 'ETH'], colors, viewMode = 'percentage' }: PriceLineChartProps) {
   const svgRef = useRef<SVGSVGElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (!svgRef.current || cryptos.length === 0) return;
+    if (!svgRef.current || !containerRef.current || cryptos.length === 0) return;
 
-    const margin = { top: 20, right: 80, bottom: 30, left: 60 };
-    const width = 700 - margin.left - margin.right;
+    // Responsive chart dimensions based on container width
+    const containerWidth = containerRef.current.clientWidth;
+    // Dynamic left margin: max 60px or 10% of width for Y-axis price labels on mobile
+    const margin = { top: 20, right: 80, bottom: 30, left: Math.min(60, containerWidth * 0.1) };
+    const width = Math.max(300, containerWidth - margin.left - margin.right);
     const height = 300 - margin.top - margin.bottom;
 
     d3.select(svgRef.current).selectAll('*').remove();
@@ -151,5 +155,9 @@ export default function PriceLineChart({ cryptos, selectedSymbols = ['BTC', 'ETH
 
   }, [cryptos, selectedSymbols, colors, viewMode]);
 
-  return <svg ref={svgRef}></svg>;
+  return (
+    <div ref={containerRef} style={{ width: '100%' }}>
+      <svg ref={svgRef}></svg>
+    </div>
+  );
 }
